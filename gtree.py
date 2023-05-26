@@ -20,10 +20,13 @@ def square(n):
 
 def subtract_one(n):
     return n - 1
+    
+def divide_by_ten(n):
+    return n // 10
 
 root = Gtree(square)
 node1 = Gtree(subtract_one)
-
+node2 = Gtree(divide_by_ten)
 
 root.add(node1)
 root.add(node2)
